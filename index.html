@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja Strona</title>
+    <title>🛒 Moja Lista Zakupów</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Witaj na mojej stronie!</h1>
-    <p>To jest standardowa struktura HTML.</p>
+    <div class="container">
+        <h1>🛒 Lista Zakupów</h1>
+        
+        <div class="input-area">
+            <input type="text" id="itemInput" placeholder="Co kupić?">
+            <button id="addBtn">Dodaj</button>
+        </div>
 
+        <ul id="shoppingList">
+            </ul>
+
+        <div class="navigation-area">
+            <button id="resetBtn" class="reset-btn">🗑️ Wyczyść listę</button>
+            <a href="zamowienie.html" class="checkout-link">📦 Przejdź do zamówienia</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
