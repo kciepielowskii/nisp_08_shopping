@@ -1,0 +1,11 @@
+# Systemowe pliki macOS (widzę na screenie, że masz Maca)
+.DS_Store
+
+# Folder ustawień Visual Studio Code
+.vscode/
+
+# Logi (jeśli coś pójdzie nie tak w przyszłości)
+*.log
+
+# Jeśli zaczniesz używać dodatków (Node.js/npm) w przyszłości:
+node_modules/
